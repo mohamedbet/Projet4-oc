@@ -4,6 +4,7 @@ body {
     background: #FFF;
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
+   width: 100%;
 }
 
 
@@ -802,8 +803,10 @@ h4 {
     font-size: 20px;
 }
 
-.img-text{
-    width: 100%;
+/* remplacement des images par paragraphe */
+.p-img{
+    font-weight: bold;
+    color: #F3976C;
 }
 
 
