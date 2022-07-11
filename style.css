@@ -3,9 +3,10 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+
 
 a,
 button {
@@ -277,11 +278,11 @@ a:hover {
     margin-left: 0;
 }
 
-.row.row-no-gutters > [class^="col-"],
+/* .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
-}
+} */
 
 #bloc-1-hero h1 {
     font-size: 32px;
@@ -704,6 +705,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-weight: bold;
 }
 
 .portfolio-thumb {
@@ -800,6 +802,10 @@ h4 {
     font-size: 20px;
 }
 
+.img-text{
+    width: 100%;
+}
+
 
 
 
@@ -866,6 +872,7 @@ h4 {
 }
 
 @media (max-width: 767px) {
+   
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1005,6 +1012,7 @@ h4 {
 }
 
 @media (max-width: 400px) {
+   
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1015,9 +1023,11 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+   
 }
 
 @media (min-width: 768px) {
+   
     .site-navigation {
         position: absolute;
         top: 50%;
